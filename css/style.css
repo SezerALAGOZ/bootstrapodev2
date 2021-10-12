@@ -1,0 +1,91 @@
+::placeholder{
+   text-align: center;
+  font-size: 14px;
+  color: gray;
+  background-position: 40%;
+  background-size: 6%;
+  background-image: url(../assets/search-solid.svg);
+  background-repeat: no-repeat;
+  padding-left: 29px;
+} /*CSS dosyası içindeki ::placeholder kısmının arkaplanına assets klasörü içinde bulunan 
+arama simgesini ekleyin. Ve resmin tekrar etmemesini sağlayın.*/
+
+input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    background-color: #FAFAFA;
+}
+
+.postuserfont {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+
+.storyphoto {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid rgb(238, 39, 82);
+  margin-right: 7px;
+}
+
+.storytext {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  color: black;
+}
+
+.rightpanellinks {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.rightpanellinks:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+.navbar {
+  position: fixed;
+  top:0;
+  z-index: 1000;
+  height: 54px;
+  background-color: #fff;
+  width: 100%;
+} /*Navbarın height'ı 54 px olmalı ve arkaplan rengi beyaz olmalı.*/
+
+.logo {
+  margin-left: 192px;
+} /*navbar'ın başındaki logo class'ının içine 192px soldan margin verin*/
+
+.middlearea {
+  max-height: 200px !important; /*Class'da belirttiğimiz middlearea içinde maksimum yükseklik 200px olmalı ve bunu important ile yazmalısınız.*/
+
+}
+
+.fa-ellipsis-h {
+  float: right;
+} /*İçerik kısmında üç nokta sağda olmalı.*/
+
+.card ul.list-group {
+  border: none;
+} /*Beğenme, yorum yapma, paylaşma kısmında border olmamalı.*/
+
+.card-header, .card-footer {
+  background-color: white;
+} /*Card header ve footer'lar beyaz olmalı.*/
+
+.paylas-butonu, .tumunuGor-takipEt {
+  float: right;
+} /*Yorum paylaş metnini sağa alın.*/
+
+#sticky-sidebar {
+  position: fixed;
+  top: 55px;
+  border: none;
+  background-color: white;
+} /*Sticky hale getirildi ve rightpaneldeki kenarlık kaldırıldı*/
